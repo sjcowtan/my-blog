@@ -29,13 +29,18 @@ suppressPackageStartupMessages(library(tidyverse))
 library(slumdown)
 ```
 
+```{r colours}
+my_colours <- c("#a8a148", "#508677", "#5596AA", "#57488e", "#8e4b9b", "#aa5099")
+```
+
+
 ```{r summary}
 glimpse(mpg)
 ```
 
 ```{r plot, echo = FALSE}
 ggplot(mpg, aes(displ, hwy)) +
-  geom_point() +
-  theme_slum("light")
+  geom_point(col = my_colours[3]) +
+  theme_slum("light-light")
 ```
 
