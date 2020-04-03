@@ -5,11 +5,20 @@
     <link>/post/</link>
     <description>Recent content in Posts on Slumdown</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 21 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <language>en-uk</language>
+    <lastBuildDate>Fri, 03 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Unimportant post</title>
+      <link>/post/unimportant-post/</link>
+      <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/unimportant-post/</guid>
+      <description>Take no notice of this post</description>
+    </item>
     
     <item>
       <title>Tutorial part 1: Getting started</title>

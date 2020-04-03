@@ -1,0 +1,36 @@
+---
+title: Unimportant post
+author: Susannah Cowtan
+date: '2020-04-03'
+slug: unimportant-post
+categories: []
+tags: ["delete"]
+summary: "Take no notice of this post"
+---
+This is a *very* unimportant post, existing solely to try out 
+a tutorial.
+
+## This is a picture of a cat
+
+![](https://placekitten.com/200/400).
+
+Not my cat though!
+
+## This is an equation
+
+$$
+\Phi^2 = a^b
+$$
+
+## This is some R output
+
+```{r libraries, echo = FALSE}
+suppressPackageStartupMessages(library(tidyverse))
+library(slumdown)
+```
+
+```{r summary}
+glimpse(mpg)
+```
+
+

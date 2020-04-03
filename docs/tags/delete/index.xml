@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>delete on Slumdown</title>
+    <link>/tags/delete/</link>
+    <description>Recent content in delete on Slumdown</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Fri, 03 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/delete/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unimportant post</title>
+      <link>/post/unimportant-post/</link>
+      <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/unimportant-post/</guid>
+      <description>Take no notice of this post</description>
+    </item>
+    
+  </channel>
+</rss>
