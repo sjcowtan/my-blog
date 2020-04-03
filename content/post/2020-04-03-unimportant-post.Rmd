@@ -35,6 +35,7 @@ glimpse(mpg)
 
 ```{r plot, echo = FALSE}
 ggplot(mpg, aes(displ, hwy)) +
-  geom_point() 
+  geom_point() +
+  theme_slum("light")
 ```
 
