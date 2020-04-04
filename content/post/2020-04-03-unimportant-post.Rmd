@@ -31,8 +31,13 @@ library(slumdown)
 
 ```{r colours, echo = FALSE}
 my_colours <- c("#a8a148", "#508677", "#5596AA", "#57488e", "#8e4b9b", "#aa5099")
-```
 
+my_theme <- function() {
+  theme_slum("light") %+replace%
+    theme(panel.background = element_rect(fill = "#dddddd", colour = "#dddddd")
+          )
+}
+```
 
 ```{r summary}
 glimpse(mpg)
@@ -41,6 +46,6 @@ glimpse(mpg)
 ```{r plot, echo = FALSE}
 ggplot(mpg, aes(displ, hwy)) +
   geom_point(col = my_colours[3]) +
-  theme_slum("light-light")
+  my_theme()
 ```
 
