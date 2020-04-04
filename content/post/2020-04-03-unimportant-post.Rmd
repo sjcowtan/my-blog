@@ -29,7 +29,7 @@ suppressPackageStartupMessages(library(tidyverse))
 library(slumdown)
 ```
 
-```{r colours}
+```{r colours, echo = FALSE}
 my_colours <- c("#a8a148", "#508677", "#5596AA", "#57488e", "#8e4b9b", "#aa5099")
 ```
 
