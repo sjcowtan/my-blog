@@ -8,7 +8,7 @@ tags: ["delete"]
 summary: "Take no notice of this post"
 header:
   caption: "A blank ggplot"
-  image: 'header/theme_light.png'
+  image: 'header/theme_grey.png'
 ---
 This is a *very* unimportant post, existing solely to try out 
 a tutorial.
