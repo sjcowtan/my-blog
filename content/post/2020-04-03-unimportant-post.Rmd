@@ -6,6 +6,9 @@ slug: unimportant-post
 categories: []
 tags: ["delete"]
 summary: "Take no notice of this post"
+header:
+  caption: "A blank ggplot"
+  image: 'header/theme_light.png'
 ---
 This is a *very* unimportant post, existing solely to try out 
 a tutorial.
