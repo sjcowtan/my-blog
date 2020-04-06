@@ -9,7 +9,7 @@ summary: "Take no notice of this post"
 header:
   caption: []
   image: 'header/theme_grey.png'
-  profile: 'header/my_profile.png'
+  profile: []
 ---
 This is a *very* unimportant post, existing solely to try out 
 a tutorial.
